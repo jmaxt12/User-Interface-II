@@ -95,3 +95,11 @@ footer {
     width: 200px;
     padding: 10px;
 }
+
+.project-image:hover {
+  animation: pulse 2s;
+}
+@keyframes pulse {
+    0% {
+      background-color: darkolivegreen;
+    }
