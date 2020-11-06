@@ -49,13 +49,14 @@ nav {
    /* padding: 10px; */
    height: 405px;
    /* margin: 10px 0px; */
-   border: 2px dotted red;
+   /* border: 2px dotted red; */
 }
 
 #description {
     padding: 10px;
-    border: 2px dotted blue;
+    /* border: 2px dotted blue; */
     width: 65%;
+    background-color: lightgray;
 }
 
 footer {
@@ -94,10 +95,14 @@ footer {
     flex-wrap: wrap;
 }
 
+/* .project {
+    border: 2px dotted blue;
+} */
+
 .project-image {
     height: 200px;
     width: 200px;
-    padding: 8px;
+    padding: 10px;
     border-radius: 10px;
 }
 
@@ -108,3 +113,8 @@ footer {
     0% {
       background-color: lightgray;
     }}
+
+.project-description {
+    text-align: center;
+    /* border: 2px dotted black; */
+}
