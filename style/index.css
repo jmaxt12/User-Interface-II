@@ -1,19 +1,25 @@
 /* Add CSS styling here */
 header {
-    padding: 40px;
+    padding: 10px;
     /* text-align: center; */
     background: darkolivegreen;
     color: white;
+    /* height: 100px; */
+    /* border: 4px solid purple; */
 }
+
+/* header h1 {
+    border: 1px solid red;
+} */
 
 nav {
     display: flex;
     border: 1px solid black;
-    padding: 20px;
+    padding: 12px;
     width: 300px;
     justify-content: space-between;
     background: white;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 .link.link {
     color: black;
@@ -53,7 +59,7 @@ nav {
 }
 
 footer {
-    padding: 40px;
+    padding: 10px;
     /* text-align: center; */
     background: darkolivegreen;
     color: white;
@@ -67,11 +73,9 @@ footer {
 
 .social.link {
     color: black;
-    text-decoration: none;
 }
 .social:hover {
     color: lightgray;
-    text-decoration: underline;
     
 }
 .social:visited {
@@ -93,7 +97,8 @@ footer {
 .project-image {
     height: 200px;
     width: 200px;
-    padding: 10px;
+    padding: 8px;
+    border-radius: 10px;
 }
 
 .project-image:hover {
@@ -101,5 +106,5 @@ footer {
 }
 @keyframes pulse {
     0% {
-      background-color: darkolivegreen;
+      background-color: lightgray;
     }}
