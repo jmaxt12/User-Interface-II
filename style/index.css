@@ -1,4 +1,8 @@
 /* Add CSS styling here */
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
 header {
     padding: 10px;
     /* text-align: center; */
@@ -39,15 +43,15 @@ nav {
 
 .top-third {
     display: flex;
-    margin: 10px 0;
+    margin-bottom: 10px;
     /* padding: 10px; */
 }
 
 #me {
-   width: 35%;
+   width: 600px;
    overflow: hidden;
    /* padding: 10px; */
-   height: 405px;
+   height: 350px;
    /* margin: 10px 0px; */
    /* border: 2px dotted red; */
 }
@@ -55,7 +59,7 @@ nav {
 #description {
     padding: 10px;
     /* border: 2px dotted blue; */
-    width: 65%;
+    width: 99%;
     background-color: lightgray;
 }
 
@@ -112,9 +116,14 @@ footer {
 @keyframes pulse {
     0% {
       background-color: lightgray;
-    }}
+    }
+    100% {
+        background-color: darkolivegreen;
+    }
+}
 
 .project-description {
     text-align: center;
     /* border: 2px dotted black; */
 }
+
